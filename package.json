@@ -1,10 +1,11 @@
 {
   "name": "qutbi-backend",
   "version": "1.0.0",
-  "description": "Qutbi backend APIs",
-  "main": "index.js",
+  "description": "Qutbi backend APIs for AI tools",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
     "openai": "^4.0.0"
