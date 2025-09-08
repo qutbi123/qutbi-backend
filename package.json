@@ -1,13 +1,12 @@
 {
   "name": "qutbi-backend",
   "version": "1.0.0",
+  "description": "Qutbi backend APIs",
   "main": "index.js",
-  "license": "MIT",
-  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "openai": "^4.0.0"
   }
-}
-"dependencies": {
-  "openai": "^4.0.0"
 }
